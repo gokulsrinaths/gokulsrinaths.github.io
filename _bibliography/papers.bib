@@ -1,115 +1,75 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@inproceedings{ram-etal-2026-validity,
+  abbr = {AACL},
+  title = {The Validity--Fidelity Gap: A Controlled Study of Representation Drift in Structured Extraction Under Redundant Contexts},
+  author = {Seetha Ram, Gokul Srinath and Vasudevan, Anirudh and Elavazhagan, Rashmi},
+  booktitle = {Findings of the Association for Computational Linguistics: IJCNLP-AACL 2026},
+  month = nov,
+  year = {2026},
+  address = {Hengqin, China},
+  publisher = {Association for Computational Linguistics},
+  pages = {2112--2126},
+  doi = {10.18653/2026.findings-aacl.107},
+  url = {https://aclanthology.org/2026.findings-aacl.107/},
+  html = {https://aclanthology.org/2026.findings-aacl.107/},
+  pdf = {https://aclanthology.org/2026.findings-aacl.107.pdf},
+  abstract = {Pipelines that use LLMs for structured extraction are commonly monitored by checking that each output parses as JSON and matches the expected keys. We show that this check can stay perfect while the extracted content degrades. We call the failure representation drift: the model still finds an entity but writes it in a different form than the intended one, for example a nested key-value object where a plain string is expected. We study this with synthetic clinical notes repeated 1x-32x. For LLaMA-3.1-8B-Instruct, micro-F1 falls from 0.499 to 0.259 while JSON validity stays 1.00. We introduce the Differential Redundancy Effect (DRE), the extra F1 drop under repeated content relative to a length-matched unrelated-filler control. The effect is large at 8B and near zero at 70B and Qwen2.5-72B. We also give a zero-ground-truth drift check and monitoring recommendations.},
+  selected = {true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+@inproceedings{ram-2026-reproduce,
+  abbr = {AAAI WS},
+  title = {When AI Cannot Reproduce Itself: Citation Drift as a Reproducibility Failure in Scientific LLMs},
+  author = {Seetha Ram, Gokul Srinath},
+  booktitle = {AAAI 2026 Workshop on Shaping Responsible Synthetic Data in the Era of Foundation Models},
+  month = jan,
+  year = {2026},
+  address = {Singapore},
+  html = {https://responsible-synthetic-data.github.io/},
+  pdf = {https://responsible-synthetic-data.github.io/papers/When-AI-Cannot-Reproduce-Itself.pdf},
+  note = {Non-archival workshop paper}
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@inproceedings{ram-2025-citation,
+  abbr = {WASP},
+  title = {Citation Drift: Measuring Reference Stability in Multi-Turn LLM Conversations},
+  author = {Seetha Ram, Gokul Srinath},
+  booktitle = {Proceedings of the Third Workshop for Artificial Intelligence for Scientific Publications (WASP)},
+  month = dec,
+  year = {2025},
+  address = {Mumbai, India and virtual},
+  publisher = {Association for Computational Linguistics},
+  pages = {186--191},
+  doi = {10.18653/v1/2025.wasp-main.20},
+  url = {https://aclanthology.org/2025.wasp-main.20/},
+  html = {https://aclanthology.org/2025.wasp-main.20/},
+  pdf = {https://aclanthology.org/2025.wasp-main.20.pdf},
+  abstract = {Large Language Models (LLMs) are increasingly used for scientific writing and research assistance, yet their ability to maintain consistent citations across multi-turn conversations remains largely unexplored. This study introduces the concept of citation drift, the phenomenon where references mutate, disappear, or get fabricated during extended LLM interactions. Through an analysis of 240 conversations across 4 LLaMA models using 36 authentic scientific papers from 6 domains, this work demonstrates significant citation instability. Citation stability varies dramatically across models, with llama-4-maverick-17b showing the highest stability (0.481) and llama-4-scout-17b showing the worst fabrication rates (0.856). The study introduces novel metrics including citation drift entropy and willingness-to-cite, providing a framework for evaluating LLM citation reliability in scientific contexts.},
+  selected = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@inproceedings{ram-2025-zerotoforecast,
+  abbr = {NeurIPS WS},
+  title = {Zero-to-Forecast: Natural Language to Time Series Prediction via Cross-Modal Ensembles},
+  author = {Seetha Ram, Gokul Srinath},
+  booktitle = {NeurIPS 2025 Workshop on Recent Advances in Time Series Foundation Models: Have We Reached the BERT Moment?},
+  month = dec,
+  year = {2025},
+  address = {San Diego, CA},
+  html = {https://neurips.cc/virtual/2025/loc/san-diego/130445},
+  pdf = {https://openreview.net/pdf?id=lERfNeDzul},
+  abstract = {Zero-to-Forecast is a cross-modal framework that turns natural-language descriptions into numerical time series forecasts without historical data. It combines LLM reasoning with domain- and pattern-specific predictors and post-hoc calibration (domain-aware smoothing, monotonic constraints). On the NL2TS-675 benchmark spanning six domains, the domain-optimized ensemble reaches an overall MAE of 16.06, with every domain under 25 MAE. Code, artifacts, and a live interactive demo are released.},
+  selected = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@misc{ram-2025-waymo,
+  abbr = {Preprint},
+  title = {Waymo's AI and Robotic Architecture: A Deep Dive with Novel Prediction Enhancements},
+  author = {Seetha Ram, Gokul Srinath},
+  howpublished = {TechRxiv preprint},
+  month = may,
+  year = {2025},
+  html = {https://techrxiv.org/users/922032/articles/1293998-waymo-s-ai-and-robotic-architecture-a-deep-dive-with-novel-prediction-enhancements}
 }
