@@ -1,6 +1,38 @@
 ---
 ---
 
+@inproceedings{ram-etal-2026-consensus,
+  abbr = {EMNLP},
+  title = {Consensus Drift: Semantic Salience Can Override Majority Evidence in LLM Aggregation},
+  author = {Seetha Ram, Gokul Srinath and Elavazhagan, Rashmi and Vasudevan, Anirudh},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+  month = oct,
+  year = {2026},
+  address = {Budapest, Hungary},
+  publisher = {Association for Computational Linguistics},
+  pages = {38411--38428},
+  doi = {10.18653/2026.emnlp-main.1689},
+  url = {https://aclanthology.org/2026.emnlp-main.1689/},
+  html = {https://aclanthology.org/2026.emnlp-main.1689/},
+  pdf = {https://aclanthology.org/2026.emnlp-main.1689.pdf},
+  abstract = {We study how language models aggregate conflicting evidence in controlled multi-juror settings. With symbolic majority voting, where jurors give only YES/NO votes, minority override is near zero across models. Under semantic aggregation, where jurors give short evidence statements plus a local verdict, override depends on evidence strength and position: it rises when the minority statement is stronger than a weak majority, while a strong-majority/weak-minority control stays low. Authority cues on the minority statement modulate the effect in some contexts but do not universally beat evidence strength. We include seed replications, cross-domain templates, phase-transition mapping across majority strength, minority strength, and position, and rationality-versus-salience controls. Llama-3.3-70B-Instruct stays close to the smaller-model baseline, while GPT-4.1 shows a substantially larger override magnitude, so the qualitative pattern persists but effect size is model-dependent.},
+  selected = {true}
+}
+
+@inproceedings{ram-elavazhagan-2026-drift-kernel,
+  abbr = {CVPR},
+  title = {The Drift Kernel: Why Diffusion Models Change Even When Told Not To},
+  author = {Seetha Ram, Gokul Srinath and Elavazhagan, Rashmi},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = jun,
+  year = {2026},
+  publisher = {IEEE/CVF},
+  html = {https://openaccess.thecvf.com/content/CVPR2026/html/Ram_The_Drift_Kernel_Why_Diffusion_Models_Change_Even_When_Told_CVPR_2026_paper.html},
+  pdf = {https://openaccess.thecvf.com/content/CVPR2026/papers/Ram_The_Drift_Kernel_Why_Diffusion_Models_Change_Even_When_Told_CVPR_2026_paper.pdf},
+  abstract = {Diffusion models given a null instruction still change the input they were asked to preserve. We call this No-Op Drift and introduce the Drift Kernel K_M(sigma), the expected perceptual deviation of a model run at noise strength sigma under a null instruction. Across 120,000 baseline samples on SD1.5, SD2.1, SDXL, and InstructPix2Pix, drift follows a quadratic relationship with noise strength (aggregate R^2 = 0.97). Prompt wording has little effect, which points to the drift arising from model structure rather than the prompt. We release NoOp-Bench, a benchmark of 10,000 inputs, with full code.},
+  selected = {true}
+}
+
 @inproceedings{ram-etal-2026-validity,
   abbr = {AACL},
   title = {The Validity--Fidelity Gap: A Controlled Study of Representation Drift in Structured Extraction Under Redundant Contexts},

@@ -6,8 +6,9 @@ cv:
   image: ""
   summary: >
     Graduate researcher working on LLM evaluation and reliability: citation drift, representation drift
-    in structured extraction, and cross-modal forecasting. First-author publications at IJCNLP-AACL 2026
-    (Findings) and workshops at NeurIPS 2025, AAAI 2026, and ACL-affiliated WASP 2025.
+    in structured extraction, consensus drift in evidence aggregation, and no-op drift in diffusion models.
+    First-author papers at CVPR 2026, EMNLP 2026, and Findings of IJCNLP-AACL 2026, plus workshops at
+    NeurIPS 2025, AAAI 2026, and ACL-affiliated WASP 2025.
 
   social_networks:
     - network: GitHub
@@ -55,6 +56,24 @@ cv:
           - Built the NL2TS-675 benchmark and the Zero-to-Forecast cross-modal ensemble.
 
     Publications:
+      - title: "Consensus Drift: Semantic Salience Can Override Majority Evidence in LLM Aggregation"
+        authors:
+          - Gokul Srinath Seetha Ram
+          - Rashmi Elavazhagan
+          - Anirudh Vasudevan
+        publisher: Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)
+        releaseDate: 2026-10
+        doi: 10.18653/2026.emnlp-main.1689
+        url: https://aclanthology.org/2026.emnlp-main.1689/
+
+      - title: "The Drift Kernel: Why Diffusion Models Change Even When Told Not To"
+        authors:
+          - Gokul Srinath Seetha Ram
+          - Rashmi Elavazhagan
+        publisher: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2026)
+        releaseDate: 2026-06
+        url: https://openaccess.thecvf.com/content/CVPR2026/html/Ram_The_Drift_Kernel_Why_Diffusion_Models_Change_Even_When_Told_CVPR_2026_paper.html
+
       - title: "The Validity-Fidelity Gap: A Controlled Study of Representation Drift in Structured Extraction Under Redundant Contexts"
         authors:
           - Gokul Srinath Seetha Ram
