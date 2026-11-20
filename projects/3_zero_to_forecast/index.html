@@ -43,11 +43,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-citation-drift",
+        },{id: "projects-the-drift-kernel",
+          title: 'The Drift Kernel',
+          description: "Diffusion models change an image even when told not to. We measure how much, and why.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_drift_kernel/";
+            },},{id: "projects-citation-drift",
           title: 'Citation Drift',
           description: "Measuring whether LLMs keep their references straight across multi-turn conversations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_citation_drift/";
+            },},{id: "projects-consensus-drift",
+          title: 'Consensus Drift',
+          description: "One well-phrased minority statement can flip an LLM&#39;s reading of the majority evidence.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/1b_consensus_drift/";
             },},{id: "projects-the-validity-fidelity-gap",
           title: 'The Validity–Fidelity Gap',
           description: "When structured extraction stays valid JSON but silently stops being correct.",
@@ -68,6 +78,16 @@ ninja.data = [{
           description: "An AI-powered firewall for OTP scam prevention. Third place, Cal Poly Pomona AI hackathon 2025.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_optishield/";
+            },},{id: "projects-nexus",
+          title: 'Nexus',
+          description: "An autonomous AI engineering team that turns one instruction into verified code patches.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_nexus/";
+            },},{id: "projects-hackathon-builds",
+          title: 'Hackathon builds',
+          description: "AI Medical Analyst (Caltech Longevity), Installama (LlamaCon 2025), and Silence as Music.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_hackathon_builds/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -95,6 +115,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=58FSgt8AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0009-0008-2063-5739", "_blank");
         },
       },{
       id: 'light-theme',
