@@ -32,4 +32,4 @@ My research asks a simple question: **when do generative models look right while
 
 Broader interests: LLM evaluation and reproducibility, interpretability, reasoning, multi-agent systems, and fairness in AI.
 
-Outside of research I build things. I led a multi-agent chat simulator at the Nous RL Environments Hackathon and was on the third-place team at Cal Poly Pomona's 2025 AI for a Better Future hackathon with an AI firewall for OTP scam prevention.
+Outside of research I build things, usually at hackathons: a multi-agent chat simulator at the Nous RL Environments Hackathon, an autonomous AI engineering team for the Claude Code hackathon, and third-place finishes at the Caltech Longevity Hackathon, the Avanade Hackathon, and Cal Poly Pomona's AI for a Better Future hackathon. I also serve on the program committee of the HeaLing 2026 workshop at EACL.

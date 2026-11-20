@@ -5,6 +5,7 @@ description: Measuring whether LLMs keep their references straight across multi-
 importance: 1
 category: research
 related_publications: ram-2025-citation, ram-2026-reproduce
+github: https://github.com/gokulsrinaths/citationdrift16k
 ---
 
 Large language models are increasingly used as research assistants, yet nobody had measured whether the references they give stay stable as a conversation goes on. This project introduces **citation drift**: references that mutate, disappear, or are fabricated over multi-turn interactions.

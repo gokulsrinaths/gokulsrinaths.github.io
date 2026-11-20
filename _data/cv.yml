@@ -1,14 +1,14 @@
 cv:
   name: Gokul Srinath Seetha Ram
-  label: M.S. Computer Science student, Cal Poly Pomona. Prospective PhD student in NLP and trustworthy AI.
+  label: M.S. Computer Science, Cal Poly Pomona. Prospective PhD student in NLP and trustworthy AI.
   email: s.gokulsrinath@gmail.com
   location: Pomona, California
   image: ""
   summary: >
-    Graduate researcher working on LLM evaluation and reliability: citation drift, representation drift
-    in structured extraction, consensus drift in evidence aggregation, and no-op drift in diffusion models.
-    First-author papers at CVPR 2026, EMNLP 2026, and Findings of IJCNLP-AACL 2026, plus workshops at
-    NeurIPS 2025, AAAI 2026, and ACL-affiliated WASP 2025.
+    Graduate researcher working on reliability failures in generative models: citation drift, representation
+    drift in structured extraction, consensus drift in evidence aggregation, and no-op drift in diffusion models.
+    First-author papers at CVPR 2026, EMNLP 2026, and Findings of IJCNLP-AACL 2026, plus workshop papers at
+    NeurIPS 2025, AAAI 2026, PMLR/EAIM 2026, and ACL-affiliated WASP 2025.
 
   social_networks:
     - network: GitHub
@@ -17,6 +17,8 @@ cv:
       username: gokulsrinath
     - network: Google Scholar
       username: 58FSgt8AAAAJ
+    - network: ORCID
+      username: 0009-0008-2063-5739
 
   sections:
     Education:
@@ -25,10 +27,10 @@ cv:
         url: https://www.cpp.edu/
         area: Computer Science
         studyType: M.S.
-        start_date: "" # TODO: add start year
-        end_date: "" # TODO: add expected graduation
+        start_date: 2023
+        end_date: 2025
         highlights:
-          - Research on LLM evaluation, citation reliability, and structured extraction robustness.
+          - Research on LLM evaluation, citation reliability, structured extraction robustness, and diffusion-model drift.
 
       - institution: "" # TODO: undergraduate institution
         location: ""
@@ -47,15 +49,26 @@ cv:
           - "" # TODO
 
       - company: California State Polytechnic University, Pomona
-        position: Research Assistant
+        position: Research Assistant, Department of Computer Science
         location: Pomona, CA
-        start_date: ""
+        start_date: "" # TODO
         end_date: ""
         highlights:
-          - Designed and ran LLM evaluation studies across the LLaMA-3.1, LLaMA-4, and Qwen2.5 model families.
-          - Built the NL2TS-675 benchmark and the Zero-to-Forecast cross-modal ensemble.
+          - Designed and ran LLM evaluation studies across the LLaMA-3.1, LLaMA-3.3, LLaMA-4, Qwen2.5, and GPT-4.1 model families.
+          - Built the NL2TS-675 benchmark, NoOp-Bench (10,000 inputs), and the Zero-to-Forecast cross-modal ensemble.
+          - Co-authored an ASEE paper on equitable autonomous-vehicle deployment with the campus autonomous-vehicle lab.
 
     Publications:
+      - title: "The Validity-Fidelity Gap: A Controlled Study of Representation Drift in Structured Extraction Under Redundant Contexts"
+        authors:
+          - Gokul Srinath Seetha Ram
+          - Anirudh Vasudevan
+          - Rashmi Elavazhagan
+        publisher: Findings of the Association for Computational Linguistics, IJCNLP-AACL 2026
+        releaseDate: 2026-11
+        doi: 10.18653/2026.findings-aacl.107
+        url: https://aclanthology.org/2026.findings-aacl.107/
+
       - title: "Consensus Drift: Semantic Salience Can Override Majority Evidence in LLM Aggregation"
         authors:
           - Gokul Srinath Seetha Ram
@@ -74,15 +87,12 @@ cv:
         releaseDate: 2026-06
         url: https://openaccess.thecvf.com/content/CVPR2026/html/Ram_The_Drift_Kernel_Why_Diffusion_Models_Change_Even_When_Told_CVPR_2026_paper.html
 
-      - title: "The Validity-Fidelity Gap: A Controlled Study of Representation Drift in Structured Extraction Under Redundant Contexts"
+      - title: "Silence as Music: Controllable and Interpretable AI for Strategic Silence Placement"
         authors:
           - Gokul Srinath Seetha Ram
-          - Anirudh Vasudevan
-          - Rashmi Elavazhagan
-        publisher: Findings of the Association for Computational Linguistics, IJCNLP-AACL 2026
-        releaseDate: 2026-11
-        doi: 10.18653/2026.findings-aacl.107
-        url: https://aclanthology.org/2026.findings-aacl.107/
+        publisher: 1st International Workshop on Emerging AI Technologies for Music (EAIM 2026), PMLR 303:1-13
+        releaseDate: 2026-01
+        url: https://proceedings.mlr.press/v303/ram26a.html
 
       - title: "When AI Cannot Reproduce Itself: Citation Drift as a Reproducibility Failure in Scientific LLMs"
         authors:
@@ -111,9 +121,29 @@ cv:
           - Gokul Srinath Seetha Ram
         publisher: TechRxiv preprint
         releaseDate: 2025-05
-        url: https://techrxiv.org/users/922032/articles/1293998-waymo-s-ai-and-robotic-architecture-a-deep-dive-with-novel-prediction-enhancements
+        doi: 10.36227/techrxiv.174742706.68651162/v1
+        url: https://doi.org/10.36227/techrxiv.174742706.68651162/v1
+
+      - title: "Toward Equitable Autonomous Vehicle Deployment"
+        authors:
+          - Gokul Srinath Seetha Ram
+          - Shreyas Chaudhary
+          - Behnam Bahr
+        publisher: 2025 ASEE Pacific Southwest Conference Proceedings
+        releaseDate: 2025-04
+        doi: 10.18260/1-2--55195
+        url: https://peer.asee.org/toward-equitable-autonomous-vehicle-deployment
 
     Projects:
+      - name: Nexus
+        url: https://github.com/rashmi-star/claude-hackathon
+        start_date: 2026
+        summary: Autonomous AI engineering team that turns one instruction into verified code patches. Six Claude Opus 4.6 agents (router, frontend, backend, manager, detect, plan, patch) produce unified diffs that are applied via git and verified with a real build, plus a reflector that writes learnings to persistent memory. Built with Rashmi Elavazhagan for the Claude Code hackathon.
+
+      - name: AI Medical Analyst
+        start_date: 2025-10
+        summary: Weekend build at the Caltech Longevity Hackathon. Uploads medical PDFs or images, extracts text with pdf-parse and Tesseract OCR, and uses a structured LLaMA prompt to return a summary, abnormal-value flags, categories, and related PubMed titles. Next.js, Tailwind, Supabase storage, Postgres, and edge functions.
+
       - name: SimuChat
         url: https://github.com/gokulsrinaths/Simuchat
         start_date: 2025-05
@@ -121,28 +151,49 @@ cv:
         highlights:
           - Written up on HackerNoon as "This Is What Happens When You Lock Three AIs in a Chat Room".
 
+      - name: Installama
+        start_date: 2025-05
+        summary: Built at LlamaCon 2025, Meta's first official hackathon for the LLaMA API, run with Cerebral Valley. Triple-tapping an Instagram-style post opens a conversation that answers as the post, using the caption, tags, and Gemini Vision image analysis. Next.js, Express with SSE streaming, Supabase.
+
       - name: OptiShield AI
         url: https://github.com/gokulsrinaths/OTPShield
         start_date: 2025-05
         summary: AI-powered firewall for OTP scam prevention. Third place, Future of Business track, Cal Poly Pomona AI for a Better Future Hackathon 2025 (239 students, 51 teams).
 
       - name: Zero-to-Forecast and NL2TS-675
+        url: https://github.com/gokulsrinaths/zero-to-forecast
         start_date: 2025
         summary: Cross-modal framework and six-domain benchmark for forecasting time series from natural-language descriptions, with a live interactive demo.
 
     Awards:
+      - title: 3rd Place, Caltech Longevity Hackathon
+        date: 2025-10
+        awarder: Caltech
+        summary: AI medical-records analyst.
+
+      - title: 3rd Place, Avanade Hackathon
+        date: 2025
+        awarder: Avanade
+        summary: Scam-detection tool.
+
       - title: 3rd Place, Future of Business track
         date: 2025-05
         awarder: Cal Poly Pomona AI for a Better Future Fair and Hackathon
         summary: Team Trio, OptiShield AI.
 
+    Service:
+      - title: Program Committee Member
+        date: 2026-03
+        awarder: HeaLing 2026, 1st Workshop on Linguistic Analysis for Health, co-located with EACL 2026
+        url: https://healing-workshop.github.io/
+
     Skills:
       - name: Machine learning
-        keywords: Large language models, evaluation and benchmarking, structured extraction, time-series forecasting, multi-agent systems
+        keywords: Large language models, evaluation and benchmarking, structured extraction, diffusion models, time-series forecasting, multi-agent systems
       - name: Programming
         keywords: Python, JavaScript, TypeScript
       - name: Tools
-        keywords: PyTorch, Hugging Face, Streamlit, LLaMA and Qwen model families, Git
+        keywords: PyTorch, Hugging Face, Streamlit, Next.js, Supabase, LLaMA and Qwen model families, Git
 
     Interests:
       - name: Research

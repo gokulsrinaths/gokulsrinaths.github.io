@@ -5,6 +5,7 @@ description: Forecasting time series from a natural-language description, with n
 importance: 3
 category: research
 related_publications: ram-2025-zerotoforecast
+github: https://github.com/gokulsrinaths/zero-to-forecast
 ---
 
 Can a model produce a sensible numeric forecast from a sentence like "foot traffic at a new coffee shop near a university over its first three months"? Zero-to-Forecast is a cross-modal framework that does exactly this.

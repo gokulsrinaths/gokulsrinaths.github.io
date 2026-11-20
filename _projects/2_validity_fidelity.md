@@ -5,6 +5,7 @@ description: When structured extraction stays valid JSON but silently stops bein
 importance: 2
 category: research
 related_publications: ram-etal-2026-validity
+github: https://github.com/gokulsrinaths/validity-fidelity-gap
 ---
 
 Production pipelines that use LLMs to pull structured data out of documents are usually monitored one way: does the output parse as JSON, and does it have the expected keys? This project shows that check can be perfect while the extracted content quietly falls apart.
