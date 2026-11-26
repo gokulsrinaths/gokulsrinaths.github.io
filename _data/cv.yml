@@ -1,6 +1,6 @@
 cv:
   name: Gokul Srinath Seetha Ram
-  label: M.S. Computer Science, Cal Poly Pomona. Prospective PhD student in NLP and trustworthy AI.
+  label: Founding Engineer, Cardinal LifeCare Consulting. M.S. Computer Science, Cal Poly Pomona (2025). Prospective PhD student in trustworthy generative AI.
   email: s.gokulsrinath@gmail.com
   location: Pomona, California
   image: ""
@@ -27,8 +27,8 @@ cv:
         url: https://www.cpp.edu/
         area: Computer Science
         studyType: M.S.
-        start_date: 2023
-        end_date: 2025
+        start_date: 2023-08
+        end_date: 2025-05
         highlights:
           - Research on LLM evaluation, citation reliability, structured extraction robustness, and diffusion-model drift.
 
@@ -40,6 +40,20 @@ cv:
         end_date: ""
 
     Experience:
+      - company: Cardinal LifeCare Consulting
+        position: Founding Engineer
+        start_date: 2026-09
+        end_date: present
+        highlights:
+          - Building an ADHD study and focus app from the ground up, launching January 2027.
+
+      - company: Clinical AI company (contract)
+        position: Contract Engineer
+        start_date: 2025-11
+        end_date: 2026-07 # TODO: confirm end month
+        highlights:
+          - Ran weekly extraction-error reviews with a team that included a medical advisor, feeding directly into the Validity-Fidelity Gap study of representation drift in clinical structured extraction.
+
       - company: University of Wyoming
         position: "" # TODO: confirm title (listed on LinkedIn)
         location: Laramie, WY
